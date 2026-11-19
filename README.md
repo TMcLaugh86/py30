@@ -2,7 +2,7 @@
 
 A mobile-first, interactive Python learning web application modeled after the *30 Days of Python* curriculum. Built as a zero-backend single-page application, **Py30** executes real Python 3.12 code directly inside the browser using WebAssembly and includes **PyBuddy**, a context-aware Python tutor.
 
-🔗 **Live App:** https://TMcLaugh86.github.io/py30/
+🔗 **Live App:**
                  https://30daysofpython.netlify.app/
 ---
 
