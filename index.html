@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
   <meta name="theme-color" content="#0B0F19" />
   <title>Py30 — 30 Days of Python</title>
+<script>
+  window.onerror = function (msg, url, line) {
+    document.body.insertAdjacentHTML(
+      'afterbegin',
+      `<div style="background:#7f1d1d;color:#fff;padding:12px;font-family:monospace;font-size:12px;z-index:9999;position:relative;">JS Error (Line ${line}): ${msg}</div>`
+    );
+  };
+  window.addEventListener('unhandledrejection', function (e) {
+    document.body.insertAdjacentHTML(
+      'afterbegin',
+      `<div style="background:#7f1d1d;color:#fff;padding:12px;font-family:monospace;font-size:12px;z-index:9999;position:relative;">Async Error: ${e.reason}</div>`
+    );
+  });
+</script>
 
   <!-- Google Fonts: Inter & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
